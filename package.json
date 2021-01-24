@@ -1,0 +1,23 @@
+{
+  "name": "gallery-lp",
+  "version": "1.0.0",
+  "description": "> A simple view of a photo gallery",
+  "scripts": {
+    "start": "live-server .",
+    "sass:watch": "npx sass --watch ./scss/main.scss ./css/main.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mapra99/gallery-lp.git"
+  },
+  "author": "Miguel Prada <mapra99@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mapra99/gallery-lp/issues"
+  },
+  "homepage": "https://github.com/mapra99/gallery-lp#readme",
+  "devDependencies": {
+    "dart-sass": "^1.25.0",
+    "live-server": "^1.2.1"
+  }
+}

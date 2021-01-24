@@ -1,61 +1,47 @@
-![](https://img.shields.io/badge/Microverse-blueviolet)
+# Gallery View
 
-# Project Name
+> A simple view of a photo gallery
 
-> One paragraph statement about the project.
-
-![screenshot](./app_screenshot.png)
-
-Additional description about the project and its features.
+![screenshot](./preview.png)
 
 ## Built With
 
-- Major languages
-- Frameworks
-- Technologies used
+- CSS Grid
+- Sass
 
 ## Live Demo
 
-[Live Demo Link](https://livedemo.com)
+[Live Demo Link](https://mapra99.github.io/gallery-lp/)
 
-
-## Getting Started
-
-**This is an example of how you may give instructions on setting up your project locally.**
-**Modify this file to match your project, remove sections that don't apply. For example: delete the testing section if the currect project doesn't require testing.**
-
+## Setup & Usage
 
 To get a local copy up and running follow these simple example steps.
+1. Clone this repository and cd to its folder
+```
+git clone git@github.com:mapra99/gallery-lp.git
+cd gallery-lp
+```
+1. Install dev dependencies
+```
+npm install --save-dev
+```
+3. Run a live server and go to http://localhost:8080
+```
+npm start
+```
+4. Watch sass for changes
+```
+npm run sass:watch
+```
+## Author
 
-### Prerequisites
+**Miguel Prada**
 
-### Setup
+- Github: [@mapra99](https://github.com/mapra99)
+- Twitter: [@MiguelPrada1](https://twitter.com/MiguelPrada1)
+- Linkedin: [mprada](https://linkedin.com/in/mprada)
 
-### Install
-
-### Usage
-
-### Run tests
-
-### Deployment
-
-
-
-## Authors
-
-👤 **Author1**
-
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/linkedinhandle)
-
-👤 **Author2**
-
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/linkedinhandle)
-
-## 🤝 Contributing
+## Contributing
 
 Contributions, issues, and feature requests are welcome!
 
@@ -63,14 +49,12 @@ Feel free to check the [issues page](issues/).
 
 ## Show your support
 
-Give a ⭐️ if you like this project!
+Give a star if you like this project!
 
 ## Acknowledgments
 
-- Hat tip to anyone whose code was used
-- Inspiration
-- etc
+- devchallenges.io for their amazing designs and its community!
 
-## 📝 License
+## License
 
 This project is [MIT](lic.url) licensed.

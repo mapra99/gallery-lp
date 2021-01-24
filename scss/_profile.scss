@@ -1,0 +1,62 @@
+.profile {
+  margin: 41px 0 64px;
+
+  .card {
+    max-width: 217px;
+    margin: auto;
+    text-align: center;
+
+    .img-wrap {
+      margin: auto;
+
+      img {
+        width: 156px;
+        border-radius: 16px;
+      }
+    }
+
+    .desc {
+      margin-top: 16px;
+  
+      .name {
+        font-size: 24px;
+        margin: 0 0 8px;
+      }
+  
+      .location {
+        font-size: 14px;
+        color: $light-brown;
+      }
+    }
+  }
+
+  .stats {
+    display: flex;
+    padding-left: 0;
+    max-width: 348px;
+    margin: 24px auto 64px;
+    justify-content: space-between;
+
+    .stat {
+      list-style-type: none;
+      width: 100px;
+      border-radius: 12px;
+      height: 67px;
+      background: $gray;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+
+      .value {
+        margin-bottom: 4px;
+        font-size: 18px;
+      }
+
+      .metric {
+        color: $light-brown;
+        font-size: 14px;
+      }
+    }
+  }
+}

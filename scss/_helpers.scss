@@ -1,0 +1,11 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@600&display=swap');
+
+$dark-brown: #4E5150;
+$light-brown: #A9A9A9;
+$gray: #E5E5E5;
+
+body {
+  font-family: 'Montserrat', OpenSans;
+  font-weight: 600;
+  color: $dark-brown;
+}

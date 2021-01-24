@@ -1,0 +1,61 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@600&display=swap");
+body {
+  font-family: "Montserrat", OpenSans;
+  font-weight: 600;
+  color: #4E5150;
+}
+
+.profile {
+  margin: 41px 0 64px;
+}
+.profile .card {
+  max-width: 217px;
+  margin: auto;
+  text-align: center;
+}
+.profile .card .img-wrap {
+  margin: auto;
+}
+.profile .card .img-wrap img {
+  width: 156px;
+  border-radius: 16px;
+}
+.profile .card .desc {
+  margin-top: 16px;
+}
+.profile .card .desc .name {
+  font-size: 24px;
+  margin: 0 0 8px;
+}
+.profile .card .desc .location {
+  font-size: 14px;
+  color: #A9A9A9;
+}
+.profile .stats {
+  display: flex;
+  padding-left: 0;
+  max-width: 348px;
+  margin: 24px auto 64px;
+  justify-content: space-between;
+}
+.profile .stats .stat {
+  list-style-type: none;
+  width: 100px;
+  border-radius: 12px;
+  height: 67px;
+  background: #E5E5E5;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.profile .stats .stat .value {
+  margin-bottom: 4px;
+  font-size: 18px;
+}
+.profile .stats .stat .metric {
+  color: #A9A9A9;
+  font-size: 14px;
+}
+
+/*# sourceMappingURL=main.css.map */
